@@ -15,10 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-nextjs-monorepo/my-lib": ["libs/common-components/src/index.ts"],
-      "@nx-nextjs-monorepo/my-lib/server": [
-        "libs/common-components/src/server.ts"
-      ]
+      "@nx-nextjs-monorepo/common-components": ["libs/common-components/src/index.ts"],
+      "@nx-nextjs-monorepo/common-components/server": ["libs/common-components/src/server.ts"],
+      "@nx-nextjs-monorepo/product-components": ["libs/product-components/src/index.ts"],
+      "@nx-nextjs-monorepo/product-components/server": ["libs/product-components/src/server.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

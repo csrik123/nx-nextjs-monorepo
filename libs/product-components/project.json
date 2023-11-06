@@ -1,7 +1,7 @@
 {
-  "name": "common-components",
+  "name": "product-components",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/common-components/src",
+  "sourceRoot": "libs/product-components/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -9,7 +9,7 @@
       "executor": "@nx/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/common-components/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["libs/product-components/**/*.{ts,tsx,js,jsx}"]
       }
     }
   }
